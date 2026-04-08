@@ -42,9 +42,21 @@ Define a process for replacing models when:
 - The provider announces end-of-life for the model version
 - A security vulnerability is discovered in the model
 - The model's security-relevant behavior degrades (detected via evaluation metrics)
-- A newer version provides significantly better injection resistance or output quality
+- A newer version meets the quantitative replacement thresholds defined below
 
-The deprecation process should include: notification to affected teams, evaluation of the replacement model, a staged rollout, and verification that the replacement meets the behavioral baseline established for the component.
+**Model replacement thresholds:**
+
+| Trigger | Measurement method | Action threshold |
+|---|---|---|
+| Injection resistance regression | Automated adversarial test suite (minimum 50 prompt injection test cases) run on a weekly schedule | Score drops ≥ 10 percentage points from the established baseline for the component |
+| Output schema compliance degradation | Automated schema validation against golden test suite | Validation failure rate rises above 2% of requests (from baseline < 0.5%) |
+| False positive rate increase (security analysis components) | Weekly FP measurement against labeled evaluation set | FP rate increases ≥ 15 percentage points from baseline |
+| Upgrade opportunity (injection resistance improvement) | New model version scores ≥ 20 percentage points higher on the adversarial test suite | Initiate upgrade evaluation; do not auto-upgrade |
+| Upgrade opportunity (output quality improvement) | New model version improves task-specific quality score ≥ 15% on component's evaluation set | Initiate upgrade evaluation; do not auto-upgrade |
+
+All thresholds are measured against the baseline established during the initial deployment of that model version for that component. Baselines must be documented in the model registry entry and re-established after each deliberate model upgrade.
+
+The deprecation process must include: notification to affected teams (minimum 2 weeks for non-emergency replacements), evaluation of the replacement model against the component's full test suite (functional + adversarial), a staged rollout (staging pipeline for 1 week before production), and verification that the replacement meets or exceeds the behavioral baseline of the replaced model.
 
 ---
 

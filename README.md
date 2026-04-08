@@ -163,8 +163,10 @@ You may use, modify, and distribute this framework freely under the terms of the
 
 ## Learning Resources
 
-- **[Book 5: AI Systems Security for DevSecOps](https://www.techstream.app/learn)** — The Techstream volume aligned with this framework when available. For current pipeline security context, see Book 2.
-- **[Book 2: Securing CI/CD and the Software Supply Chain](https://www.techstream.app/learn)** — Provides the pipeline security foundation this framework extends.
-- **[Hands-On Labs (techstream-learn/)](https://www.techstream.app/learn)** — Practical exercises aligned with Techstream framework content.
-- **[Book Series Overview (VOLUMES.md)](../techstream-books/VOLUMES.md)** — Index of all Techstream volumes.
+The Techstream Book Series and hands-on lab companion extend the concepts in this framework with structured learning, AI security exercises, and agent security design walkthroughs.
+
+- **[Book 5: AI and Agentic Systems Security for DevSecOps](https://www.techstream.app/learn)** — The primary volume aligned with this framework. Covers AI threat modeling, STRIDE for LLM systems, prompt injection defense, agent authorization, multi-agent trust, pipeline controls, agent forensics, AI security maturity, and regulatory compliance. 20 chapters across 5 parts.
+- **[Hands-On Labs (techstream-learn/book-5-ai-agentic-security/)](https://www.techstream.app/learn)** — 20 chapter labs including: prompt injection detection in CI pipelines, cascade compromise tracing, agent authorization policy design, STRIDE threat modeling for LLM systems, and AI security program development.
+- **[Book 2: Securing CI/CD and the Software Supply Chain](https://www.techstream.app/learn)** — Pipeline security foundation that this framework extends to cover AI-assisted and agentic pipeline components.
+- **[Book Series Overview (VOLUMES.md)](../techstream-books/VOLUMES.md)** — Index of all five Techstream volumes.
 - **[Techstream Platform](https://www.techstream.app)** — Central portal for all Techstream frameworks, documentation, and learning resources.
