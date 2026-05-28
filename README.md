@@ -157,6 +157,17 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for documentation standards, the review p
 
 ---
 
+
+---
+
+## Related Publications
+
+The patterns and methodologies in this framework are translated for practitioners in the TechStream article series:
+
+- **"Why Your AI Agent Is the Next SolarWinds: Supply Chain Security for the Agentic Era"** (Medium, May 2026) — bridges `ai-devsecops-framework`, `forensics-and-incident-response-framework`, and `software-supply-chain-security-framework`.
+
+These articles are designed for U.S. practitioners implementing federal mandates including Executive Order 14028, Executive Order 14306, NIST SP 800-218 (SSDF), and NIST SP 1800-44 (NCCoE DevSecOps Practices, March 2026 preliminary draft).
+
 ## License
 
 Copyright 2024 Techstream
