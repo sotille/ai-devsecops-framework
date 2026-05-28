@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "AI/Agentic Systems DevSecOps Framework"
+message: "If you reference, cite, or build upon this framework, please cite it as below."
+type: software
+authors:
+  - family-names: Sotille
+    given-names: Felipe
+    affiliation: "TechStream (Independent)"
+    email: "fsotille@gmail.com"
+repository-code: "https://github.com/sotille/ai-devsecops-framework"
+url: "https://www.techstream.app"
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2026-05-17"
+abstract: >-
+  Security framework for AI and agentic systems in DevSecOps: prompt injection defense, agent authorization (Principle of Least Authority), audit trails for non-deterministic systems, model supply chain integrity, AI-assisted development risk controls, and the Auditor Agent architectural pattern. Aligned with NIST AI 100-1 (AI Risk Management Framework), OWASP LLM Top 10, EU AI Act, and CISA AI Roadmap.
+keywords:
+  - ai-security
+  - agentic-systems
+  - prompt-injection
+  - llm-security
+  - nist-ai-100-1
+  - owasp-llm-top-10
+  - eu-ai-act
+  - auditor-agent
