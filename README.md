@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://techstream.app">
+  <a href="https://dev.felipe.sotille.com/">
     <img src="https://techstream.app/images/techstream-icon.svg" width="72" height="72" alt="TechStream" />
   </a>
 </p>
@@ -7,10 +7,12 @@
 # AI and Agentic Systems Security Framework for DevSecOps
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/techstream/ai-devsecops-framework)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/sotille/ai-devsecops-framework)
 [![Documentation](https://img.shields.io/badge/docs-comprehensive-brightgreen.svg)](docs/)
-[![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/techstream/ai-devsecops-framework)
+[![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/sotille/ai-devsecops-framework)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+> **AI DevSecOps Framework** is an open framework (Apache 2.0) by [Felipe Sotille](https://dev.felipe.sotille.com/cv), Senior DevSecOps Architect & Coach in Brussels, published under Techstream, his consultancy. It covers securing AI-assisted and agentic software delivery: coding agents in pipelines, prompt-injection defence, model supply chain and agent authorisation. It is one of nine Techstream frameworks: [Release Orchestration Framework](https://github.com/sotille/release-orchestration-framework), [Software Supply Chain Security Framework](https://github.com/sotille/software-supply-chain-security-framework), [Secure CI/CD Reference Architecture](https://github.com/sotille/secure-ci-cd-reference-architecture), [DevSecOps Framework](https://github.com/sotille/devsecops-framework), [DevSecOps Maturity Model](https://github.com/sotille/devsecops-maturity-model), [Compliance Automation Framework](https://github.com/sotille/compliance-automation-framework), [DevSecOps Transformation Methodology](https://github.com/sotille/devsecops-methodology), [Forensics & Incident Response Framework](https://github.com/sotille/forensics-and-incident-response-framework).
 
 A framework for securing AI and LLM systems embedded in the software delivery pipeline — covering AI-assisted development, agentic CI/CD pipelines, prompt injection defense, model supply chain security, and agent authorization governance.
 
@@ -79,7 +81,7 @@ For teams encountering AI security for the first time:
 
 ```bash
 # Clone this framework locally
-git clone https://github.com/techstream/ai-devsecops-framework.git
+git clone https://github.com/sotille/ai-devsecops-framework.git
 cd ai-devsecops-framework
 
 # Begin with the threat model to assess your current AI integration points
